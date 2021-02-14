@@ -1,0 +1,181 @@
+/*Pour ne pas laissez d'espace entre les div*/
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+/*Pour éviter un scrollbar horizontal*/
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+/*-----------------------------------------------*/
+
+/*header de la page*/
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_1280.jpg");
+    background-size: cover;
+    height: 560px;
+    width: 100%;
+    
+}
+
+.container_nav{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.logo{
+    display: flex;
+    width: 350px;
+
+}
+
+.logocar{
+    width: 63.51px;
+    height: 45.41px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text_logo{
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+    text-shadow: 1px 1px black;
+}
+/*-----------------------------------------------*/
+
+/*Menu navigation*/
+.nav{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+    left: 600px;    
+}
+
+.active{
+    border-bottom: solid 2px #0079db;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 1px 1px black;
+}
+
+a:hover{
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+/*-----------------------------------------------*/
+
+section{
+    height: 800px;
+}
+
+/*footer de la page*/
+
+/*
+footer{
+    background-color: rgba(29, 29, 29, 0.836);
+    height: 360px;
+}
+
+.pieds_de_page{
+    display: flex;
+    border: solid 1px black;
+}
+.pieds_de_page:hover{
+    text-decoration: none;
+}*/
+
+/*-----------------------------------------------*/
+
+@media only screen and (max-width: 640px) {*
+
+    /*Pour ne pas laissez d'espace entre les div*/
+    *{
+        margin: 0; 
+        padding: 0;
+    }
+
+/*-----------------------------------------------*/
+    
+    /*Pour éviter un scrollbar horizontal*/
+    body{
+        overflow-x: hidden;
+        font-family: sans-serif;
+    }
+
+    header{
+        background-image: url("https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_1280.jpg");
+        height: 360px;
+        max-width: 360px; 
+    }
+
+    .container_nav{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 30px;
+        width: 100%; 
+    }
+
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 260px;
+        max-width: 360px; 
+    }
+
+    .logocar{
+        width: 63.51px;
+        height: 45.41px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text_logo{
+        font-size: 30px;
+        color: white;
+        margin-top: 15px;
+        position: relative;
+        left: 10%;
+    }
+
+    /*Menu navigation*/
+    .nav{
+        font-size: 20px;
+        border: solid 1px black;
+        height: 300px;
+        width: 100%;
+        margin-top: 15px;
+        position: relative;
+        left:auto;
+        right: auto;
+        background-color: rgb(33, 33, 33);   
+    }
+
+    .active{
+        color:#0079db;
+        border-bottom: none;
+    }
+
+    a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+    }
+/*-----------------------------------------------*/
+      
+  }
