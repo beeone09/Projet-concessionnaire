@@ -22,16 +22,19 @@ header{
 
 .container_nav{
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
     position: relative;
     top: 50px;
+    overflow: hidden;
 }
 
 .logo{
     display: flex;
     width: 350px;
-
 }
 
 .logocar{
@@ -45,16 +48,17 @@ header{
     font-size: 30px;
     color: white;
     margin-top: 15px;
-    text-shadow: 1px 1px black;
 }
 /*-----------------------------------------------*/
 
 /*Menu navigation*/
 .nav{
     font-size: 20px;
-    width: 100%;
-    margin-top: 15px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
+    text-align: center;
     left: 600px;    
 }
 
@@ -66,7 +70,6 @@ a{
     color: white;
     text-decoration: none;
     padding: 20px;
-    text-shadow: 1px 1px black;
 }
 
 a:hover{
@@ -96,7 +99,7 @@ footer{
 
 /*-----------------------------------------------*/
 
-@media only screen and (max-width: 640px) {*
+@media only screen and (max-width: 360px) {*
 
     /*Pour ne pas laissez d'espace entre les div*/
     *{
@@ -114,7 +117,7 @@ footer{
 
     header{
         background-image: url("https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_1280.jpg");
-        height: 360px;
+        height: 260px;
         max-width: 360px; 
     }
 
@@ -124,15 +127,14 @@ footer{
         margin-right: auto;
         position: relative;
         top: 30px;
-        width: 100%; 
+        max-width: 360px; 
     }
 
     .logo{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 260px;
-        max-width: 360px; 
+        width: 360px; 
     }
 
     .logocar{
@@ -141,6 +143,8 @@ footer{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
+        right: 50px;
     }
 
     .text_logo{
@@ -155,14 +159,16 @@ footer{
     .nav{
         font-size: 20px;
         border: solid 1px black;
-        height: 300px;
-        width: 100%;
+        height: 250px;
+        width: 360px;
         margin-top: 15px;
         position: relative;
-        left:auto;
+        left: auto;
         right: auto;
         background-color: rgb(33, 33, 33);   
     }
+
+ 
 
     .active{
         color:#0079db;
@@ -172,8 +178,9 @@ footer{
     a{
         display: block;
         color: white;
+        border-bottom: #0079db ;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
         padding: 20px;
     }
 /*-----------------------------------------------*/
