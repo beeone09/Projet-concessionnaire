@@ -1,0 +1,27 @@
+
+.container_gallery{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: auto;
+    margin-top: 50px;  
+}
+
+.container_image{
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+    
+    
+    
+}
+.ventediv{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.caracvo{
+    margin-top: 15px;
+    text-align: center;
+}
