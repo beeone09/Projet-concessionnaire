@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.titre1_cnx{
+    text-align: center;
+}
+
+.titre2_cnx{
+    text-align: center;
+}
+
+.container_cnx{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}        
+
+#form-switch {
+    display:none
+}
+#form-switch:checked~#register-form {
+    display:block
+}
+#form-switch:checked~#login-form {
+    display:none
+}
+
+#login-form, #register-form {
+    margin:0 auto;
+    width:400px;
+}
+
+#register-form {
+    display:none;
+}
