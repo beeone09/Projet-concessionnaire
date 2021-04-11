@@ -1,0 +1,42 @@
+.bloc1{
+    width: auto;  
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+}
+
+.titre1_form{
+    text-align: center;
+}
+
+
+.form{
+    display: block;
+    margin: auto;
+    padding: 6px;
+    width: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+input, textarea{
+    display: flex;
+    margin-left: auto; margin-right: auto ;
+    margin-top: 10px; margin-bottom: 10px;
+    padding-top:10px; padding-bottom: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttonsub{
+    text-align: right;
+    margin-top: 10px; margin-bottom: 10px;
+}
+
+.but1{
+    font-size: 125%;
+    
+}
+
+.envoye{
+    text-align: center;
+    color: green;
+}

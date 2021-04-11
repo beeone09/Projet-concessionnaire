@@ -1,0 +1,188 @@
+
+.container_gallery1{
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    margin-top: 50px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container_gallery2{
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+}
+
+.container_image1{
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    border: solid 1px black;     
+}
+
+.ventediv{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto; 
+    margin-left: 15px;
+
+}
+
+.butest2{
+    margin-top: 20px;
+}
+
+.caracvo{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.modbut{
+    text-align: center;
+    
+}
+
+.butmod{
+    
+    font-size: 1.5em;
+    padding: 8px; 
+    margin-top: 40px;
+    
+}
+
+@media only screen and (max-width: 360px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        margin-top: 0;
+    }
+
+      header{
+        background-image: url("https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_1280.jpg");
+        height: 260px;
+        max-width: 360px; 
+    }
+
+    .container_gallery1{
+        margin: 0 auto;
+        width: auto;
+        height: 1100px;
+        margin-top: 50px; 
+        border: solid 1px black; 
+        text-align: center;
+    }
+
+
+    
+    .container_gallery1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: auto;
+        margin-top: 50px; 
+        border: solid 1px black; 
+    }
+
+    .container_image1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: auto;
+        border: solid 1px black;     
+    }
+
+    .logocar{
+        display: flex;
+        width: 200px;
+        /*border:solid 1px black;*/
+        position: relative;
+        float: left;
+        z-index:0;
+        top: 0;
+        margin-left: 15px;
+    }
+
+    .logo{
+        width: 63.51px;
+        height: 45.41px;
+    }
+
+    .titre_logo{
+        font-size: 20px;
+        color: white;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+
+    .navigation {
+        /*border:solid 1px black;*/
+        width: 250px;
+        text-align: center;
+        position: absolute;
+        float: left;
+        background-color: rgb(33, 33, 33);
+        background-attachment: fixed;
+        background-repeat: repeat;
+        height: 1000px;
+        margin-top: 0;
+        z-index: 100;
+    } 
+    
+    a{
+        display: flex;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menuToggle span{
+       height: 3px;
+       background-color: rgb(255, 255, 255);
+       width: 30px;
+       position: absolute;
+       top: 20px;
+       right: 0;
+       margin-top: 25px;
+       margin-right: 15px;
+    }
+
+    .menuToggle span:before{
+        content: '';
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        width: 30px;
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+
+    .menuToggle span:after{
+        content: '';
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        width: 30px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    .hide{
+        margin-left: -350px;
+        transition-duration: 0.2s;
+    }
+
+    .hide_open{
+        margin-left: 0;
+        transition-duration: 0.2s;
+    }
+    .ventediv{
+        width: 360px;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
