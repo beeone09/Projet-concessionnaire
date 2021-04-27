@@ -1,0 +1,54 @@
+.bloc1{
+    width: auto;  
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+}
+
+.titre1_form{
+    text-align: center;
+}
+
+
+.form{
+    display: block;
+    margin: auto;
+    padding: 6px;
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+input, textarea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto; margin-right: auto ;
+    margin-top: 10px; margin-bottom: 10px;
+    padding-top:10px; padding-bottom: 10px;
+}
+
+.buttonsub{
+    width: auto;
+}
+
+.butest{
+    width: auto;
+    display: block;
+    position: relative;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 750px){
+    .titre1_form{
+        text-align: center;
+    }
+
+    .form{ 
+        width: 80%;
+    }
+
+    .butest{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

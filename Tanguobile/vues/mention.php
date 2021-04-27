@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../media/css/mention.css">
-    <link type="text/css" rel="stylesheet" href= "../media/css/nav.css">
-    <link type="text/css" rel="stylesheet" href= "../media/css/footer.css">
 
-    <title>Mention légales</title>
-</head>
-<body>
     <?php include('../vues/nav.php');?>
 
     <div class="container_legal">
-        <h1 class="titre1">Informations légales</h1>
+        <h1 class="titre1">Informations légales</h1><br>
 
         <p>Merci de lire attentivement les présentes modalités d'utilisation du présent site avant de le parcourir. 
-            En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.</p>
+            En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.</p><br>
 
-        <h2 class="titre2">Editeur du site</h2>
+        <h2 class="titre2">Editeur du site</h2><br>
         
         <p>BOURDAGEAU Benoît, HOAREAU Théo, LEBON Maxime</p> <br/>
         <p>par Tangu’obile</p> <br/>
@@ -34,14 +22,14 @@
         <p>RCS X XXX XXX XX - Siret : XXXXXXXXX - APE : XXXXX</p> <br/>
         <p>N° déclaration CNIL : XXXXXX</p> <br/>
 
-        <h2 class="titre2">Conditions d'utilisations</h2>
+        <h2 class="titre2">Conditions d'utilisations</h2><br>
 
         <p>Le site accessible par les url suivants : www.site-internet-qualite.fr est exploité dans le respect de la législation française. 
             L'utilisation de ce site est régie par les présentes conditions générales.   
             En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. 
             Celles-ci pourront être modifiées à tout moment et sans préavis par la société Tangu’obile.</p> <br/>
 
-        <h2 class="titre2">Responsable éditorial</h2>
+        <h2 class="titre2">Responsable éditorial</h2><br>
 
         <p>Bourdageau Benoit</p> <br/>
         <p>par Tangu’obile</p> <br/>
@@ -51,7 +39,7 @@
         <p>Fax : + 33 (0)5 40 XX XX XX</p> <br/>
         <a href="https://www.tanguobile.re"></a>
 
-        <h2 class="titre2">Limitation de responsabilité</h2>
+        <h2 class="titre2">Limitation de responsabilité</h2><br>
 
         <p>Les informations contenues sur ce site sont aussi précises que possibles et le site est périodiquement remis à jour, 
             mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, 
@@ -67,39 +55,39 @@
 
         <p>Les liens hypertextes mis en place dans le cadre du présent site internet en 
             direction d'autres ressources présentes sur le réseau Internet ne 
-            sauraient engager la responsabilité de Tang’obile.</p>
+            sauraient engager la responsabilité de Tang’obile.</p><br>
 
-        <h2 class="titre2">Litiges</h2>
+        <h2 class="titre2">Litiges</h2><br>
 
         <p>Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui 
             pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la 
             compétence exclusive des tribunaux dont dépend le siège social de la société Tangu’obile. 
-            La langue de référence, pour le règlement de contentieux éventuels, est le français.</p>
+            La langue de référence, pour le règlement de contentieux éventuels, est le français.</p><br>
 
-        <h2 class="titre2">Déclaration à la CNIL</h2>
+        <h2 class="titre2">Déclaration à la CNIL</h2><br>
 
         <p>Conformément à la loi 78-17 du 6 janvier 1978 (modifiée par la loi 2004-801 du 6 août 2004 relative à la 
             protection des personnes physiques à l'égard des traitements de 
             données à caractère personnel) relative à l'informatique, 
             aux fichiers et aux libertés, le site a fait l'objet d'une déclaration auprès de la 
             Commission nationale de 
-            l'informatique et des libertés (www.cnil.fr). </p>
+            l'informatique et des libertés (www.cnil.fr). </p><br>
 
-        <h2 class="titre2">Droit d'accès</h2>
+        <h2 class="titre2">Droit d'accès</h2><br>
 
         <p>En application de cette loi, les internautes disposent d’un droit d’accès, de rectification, de modification et de 
             suppression concernant les données qui les concernent personnellement. 
             Ce droit peut être exercé par voie postale auprès de Tangu’obile 14 rue lakaz,
             Saint-Joseph ou par voie électronique à l’adresse email suivante : contact@tanguobile.re.
             Les informations personnelles collectées ne sont en aucun cas confiées à des tiers hormis pour 
-            l’éventuelle bonne exécution de la prestation commandée par l’internaute.</p>
+            l’éventuelle bonne exécution de la prestation commandée par l’internaute.</p><br>
 
-        <h2 class="titre2">Confidentialité</h2>
+        <h2 class="titre2">Confidentialité</h2><br>
 
         <p>Vos données personnelles sont confidentielles et ne seront en aucun cas communiquées à 
-            des tiers hormis pour la bonne exécution de la prestation.</p>
+            des tiers hormis pour la bonne exécution de la prestation.</p><br>
 
-        <h2 class="titre2">Propriété intellectuelle</h2>
+        <h2 class="titre2">Propriété intellectuelle</h2><br>
 
         <p>Tout le contenu du présent site, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, 
             gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la société Tangu’obile à 
@@ -122,14 +110,12 @@
             ainsi que l’ouverture du présent site au sein d’un cadre (« framing »), sauf l'autorisation expresse et préalable de Tangu’obile.</p> <br/>
 
         <p>Pour toute demande d'autorisation ou d'information, veuillez nous contacter par email : 
-            bbhtlm@pro.fr . Des conditions spécifiques sont prévues pour la presse.</p>
+            bbhtlm@pro.fr . Des conditions spécifiques sont prévues pour la presse.</p><br>
 
-        <h2 class="titre2">Hébergeur</h2>
+        <h2 class="titre2">Hébergeur</h2><br>
 
         <strong>BBCloud</strong>
         <p>bbcloud.re</p>
     </div>
 
     <?php include('../vues/foot.php');?>
-</body>
-</html>

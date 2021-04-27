@@ -13,9 +13,9 @@
     <?php include('../vues/nav.php');?>
 
     <div class = "container_rgpd">
-        <h1 class="titre1">Conditions de service</h1>
+        <h1 class="titre1">Conditions de service</h1><br>
 
-        <h2 class="titre2">Informations et exclusion</h2>
+        <h2 class="titre2">Informations et exclusion</h2><br>
 
         <p>Les données présentes sur le présent formulaire sont sauvegardées dans un fichier informatisé par 
             [identité de l’organisme responsable de traitement] dont le délégué à la protection des données est 
@@ -60,9 +60,9 @@
         <p>(Dans le cas d’une décision automatisée, le paragraphe suivant sera nécessairement inséré dans la déclaration) : 
             vous êtes informé que les données [type de donnée] feront l’objet d’un traitement automatique permettant de 
             prendre des décisions équitables et judicieuses. Vous pouvez toutefois révoquer cette décision automatique 
-            en vous adressant au délégué à la protection des données.</p>
+            en vous adressant au délégué à la protection des données.</p><br>
 
-        <h2 class="titre2">Mettre les mentions minimales d’information sur deux supports différents</h2>
+        <h2 class="titre2">Mettre les mentions minimales d’information sur deux supports différents</h2><br>
 
         <p>La société [responsable de traitement] représentée par le délégué à la protection des données 
             [renseignements concernant celui-ci si la société en désigné un] traite les 
@@ -72,9 +72,9 @@
             traitement de vos données personnelles et pour exercer vos droits, 
             reportez-vous à la notice ci-jointe ou cliquez ici [lien qui mène vers les 
             clauses plus détaillées]. (Les informations supplémentaires pourront 
-            présenter de diverses manières ou sous forme de texte suivant le modèle précédent).</p>
+            présenter de diverses manières ou sous forme de texte suivant le modèle précédent).</p><br>
 
-        <h2 class="titre2">Quid des modifications ?</h2>
+        <h2 class="titre2">Quid des modifications ?</h2><br>
 
         <p>L’organisme responsable de la collecte, du traitement et de la conservation des 
             données personnelles est libre de modifier le contenu de sa politique de 

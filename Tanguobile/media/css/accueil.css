@@ -5,12 +5,12 @@ body{
     font-family: Arial;
 }
 
-h1{
+.titre1_acc{
     text-align: center;
     font-size: 40px;
 }
 
-h2{
+.titre2_acc{
     text-align: center;
     color: white;
     font-size: 40px;
@@ -28,25 +28,27 @@ h3{
     height: 600px;
     padding-top: 60px;
     width: auto;
+    
+    
 }
 
 .container_gallery{
     display: flex;
-    flex-direction: row;
     margin: 0 auto;
     width: auto;
-    margin-top: 50px;  
+    
+   
 }
 
 .container_image{
     display: flex;
     margin: 0 auto;
     width: auto;
-    
+    margin-top: 60px;    
 }
 
 .car1{
-    width: 300px;
+    width: 400px;
     height: 300px;
     transition: transform .2s; 
 }
@@ -56,7 +58,7 @@ h3{
 }
 
 .car2{
-    width: 300px;
+    width: 400px;
     height: 300px;
     transition: transform .2s;   
 }
@@ -89,19 +91,17 @@ h3{
     flex-direction: row;
     margin: 0 auto;
     width: 80%;
-    height: 400px;
-    margin-top: 50px;
-    
+    height: 270px;
+    margin-top: 100px;  
 }
 
 .container_type{
     display: flex;
     margin: 0 auto;
-    height: 400px;
 }
 
 .container_type1{
-    padding-bottom: 20px;    
+    padding-bottom: 20px;   
 }
 
 .container_type2{
@@ -116,31 +116,31 @@ h3{
 .title_serv{
     font-weight: bold;
     color: white;
-
 }
 
 .serv{
     color: white;
+    margin-top: 20px;
 }
 
 .type1{
-    width: 200px;
-    height: 200px; 
+    width: 150px;
+    height: 150px; 
     display: block;
     margin: 0 auto;
 }
 
 .type2{
-    width: 200px;
-    height: 200px; 
+    width: 150px;
+    height: 150px; 
     display: block;
     margin: 0 auto;
      
 }
 
 .type3{
-    width: 200px;
-    height: 200px; 
+    width: 150px;
+    height: 150px; 
     display: block;
     margin: 0 auto;  
 }
@@ -232,7 +232,7 @@ h3{
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 1224px){
     /*Corps et titre*/
 body{
     margin: 0;
@@ -260,8 +260,10 @@ h3{
 
     /*Container1*/
     .container1{
+        width: auto;
         height: 1100px;
         padding-top: 20px;
+        padding-bottom: 50px;
         width: auto;
     }
     
@@ -287,7 +289,7 @@ h3{
      /*Container2*/
      .container2{
         background-color:  rgba(10, 10, 10, 0.836);
-        height: 1400px;
+        height: 1300px;
         padding-top: 20px;
     }
     
@@ -297,8 +299,7 @@ h3{
         margin: 0 auto;
         width: auto;
         height: 1200px;
-        margin-top: 50px;
-        
+        margin-top: 50px;     
     }
     
     .container_type{
@@ -306,11 +307,15 @@ h3{
         flex-direction: column;
         margin: 0 auto;
         height: 1200px;
+        width: auto;
     }
 
     .para_serv{ 
-        margin-top: 20px;
-        text-align: center;
+        padding-top: 20px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;  
     }
     
     .title_serv{
@@ -325,10 +330,31 @@ h3{
         text-align: center;
     }
 
-    .container_type2{
+    .type1{
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+
+    .type3{
+        margin-top: 20px;
+     }
+
+    .container_type1{
         margin-left: 50px;
         margin-right: 50px;
         margin-bottom: 20px;    
+    }
+
+    .container_type2{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container_type3{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
     }
 
 /*------------------------------------------*/
@@ -366,6 +392,12 @@ h3{
     .contact{
         font-weight: bold;
         margin-top: 10px;
+    }
+
+    .car1{
+        width: 360px;
+        height: 300px;
+        transition: transform .2s; 
     }
 
 }

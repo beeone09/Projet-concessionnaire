@@ -1,42 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href= "../media/css/accueil.css">
-    <link type="text/css" rel="stylesheet" href= "../media/css/nav.css">
-    <link type="text/css" rel="stylesheet" href= "../media/css/footer.css">
-    
-    <title>Accueil</title>
-</head>
 
-<body>
-    <?php include('../vues/nav.php');?>
+    <?php 
+    include('../vues/nav.php');
+    include('../vues/cnxDB.php');
+
+    $sql = "SELECT chemin_vo from voiture where tendance like 'oui';";
+    $res = $cnx->query($sql);
+    $data = $res -> fetchall();
+    ?>
+
 
     <section class= "container1">
-        <h1>NOS TENDANCES</h1>
+        <h1 class="titre1_acc">NOS TENDANCES</h1>
         <hr/>
-
-        <div class= "container_gallery">
-            <div class="container_image">
-                <div class="container_image1">
-                    <img class="car1" src="https://cdn.pixabay.com/photo/2016/12/07/21/50/car-1890494_1280.jpg" alt="test1">
+        <div class="container_image">
+<?php
+foreach($data as $ligne)
+echo '  <div class= "container_gallery">
+            
+                <div class="container_image">
+                    <img class="car1" src="'.$ligne['chemin_vo'] .'" alt="test1">
                 </div>
 
-                <div class="container_image2">
-                    <img class="car2" src="https://cdn.pixabay.com/photo/2016/12/07/21/50/car-1890494_1280.jpg" alt="test2">
-                </div>
-
-                <div class="container_image3">
-                    <img class="car3" src="https://cdn.pixabay.com/photo/2016/12/07/21/50/car-1890494_1280.jpg" alt="test3">
-                </div>
             </div>    
+        '
+?>
         </div>
     </section>
     
     <section class= "container2">
-        <h2>NOS SERVICES</h2>
+        <h2 class="titre2_acc">NOS SERVICES</h2>
         <hr/>   
         <div class= "container_service">
             <div class="container_type">

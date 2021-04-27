@@ -1,0 +1,19 @@
+.buttonsub{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.buttonannuler{
+    text-align: left;
+    margin-top: 10px; margin-bottom: 10px;
+}
+
+.but1{
+    font-size: 125%;
+    
+}
+
+.envoye{
+    text-align: center;
+    color: green;
+}
