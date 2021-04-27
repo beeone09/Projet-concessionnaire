@@ -1,27 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
 
-.container_gallery{
+.container_gallery1{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 0 auto;
     width: auto;
-    margin-top: 50px;  
+    height: auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    border: solid 1px black; 
 }
 
-.container_image{
-    display: inline-block;
-    margin: 0 auto;
+.container_gallery2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     width: auto;
-    
-    
-    
+    height: auto;
+    border: solid 1px black;
 }
+
+.carVente{
+    border: solid 1px black;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(10, 10, 10, 0.836);
+    transition: transform .2s;
+}
+
+.carVente:hover{
+    transform: scale(1.1);
+}
+
+.imgVente{
+    display: block;
+}
+
+
 .ventediv{
     width: 400px;
     height: 300px;
-    margin: 0 auto;
+
+    border: solid 1px black;  
+}
+
+.butest2{
+    margin-top: 20px;
 }
 
 .caracvo{
-    margin-top: 15px;
+    display: block;
     text-align: center;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.836);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px black;
+}
+
+.modbut{
+    text-align: center;
+    
+}
+
+.butmod{
+    font-size: 1.5em;
+    padding: 8px; 
+    margin-top: 40px;
+    
+}
+
+@media only screen and (max-width: 1224px){
+    
+      header{
+        background-image: url("https://cdn.pixabay.com/photo/2020/02/02/19/55/cars-4814015_1280.jpg");
+        height: 260px;
+    }
+
+    .container_gallery1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        margin-top: 50px; 
+        margin-bottom: 50px;
+        border: solid 1px rgb(17, 216, 67);  
+    }
+    
+    .container_gallery2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        border: solid 1px rgb(170, 6, 6);
+    }
+
+    .carVente{
+        border: solid 1px black;
+        display: block;
+        width: 80%;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(10, 10, 10, 0.836);
+        transition: transform .2s;
+        
+    }
+    
+
 }

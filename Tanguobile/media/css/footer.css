@@ -38,7 +38,7 @@ footer{
     border-bottom: none;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 1224px){
     *{
         margin: 0;
         padding: 0;
@@ -48,7 +48,6 @@ footer{
         background-color: rgba(10, 10, 10, 0.836);
         height: 215px;
         width: 100%;
-        margin: 0;
     }
 
     .pieds_de_page{
