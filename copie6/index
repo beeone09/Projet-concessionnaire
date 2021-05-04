@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href= "media/css/accueil.css">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $demande = (empty($_GET['chx'] )) ? 'accueil' : $_GET['chx'];
+
+        switch($demande){
+            case 'nav' :
+                require __DIR__ . '/vues/nav.php';
+                break;
+
+            case 'accueil' :
+                require __DIR__ . '/vues/accueil.php';
+                break;
+
+            case 'footer' :
+                require __DIR__ . '/vues/foot.php';
+                break;
+
+            case 'service' :
+                require __DIR__ . '/vues/nav.php';
+                break;
+
+            case 'mention' :
+                require __DIR__ . '/vues/mention.php';
+                break;  
+                
+            case 'rgpd' :
+                require __DIR__ . '/vues/rgpd.php';
+                break;
+        }
+    ?>
+</body>
+</html>
