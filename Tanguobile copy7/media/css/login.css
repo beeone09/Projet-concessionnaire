@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.titre1_cnx{
+    text-align: center;
+}
+
+.titre2_cnx{
+    text-align: center;
+
+}
+
+.container_cnx{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}        
+
+#form-switch {
+    display:none;
+}
+
+#form-switch:checked~#register-form {
+    display:block;
+}
+#form-switch:checked~#login-form {
+    display:none;
+}
+
+#login-form, #register-form {
+    margin:0 auto;
+    width: 20%;
+}
+
+#register-form {
+    display:none;
+}
+
+.contain_buttonLog{
+    width: auto;
+}
+
+.buttonLog{
+    width: auto;
+    display: block;
+    text-align: right;
+}
+
+#button_LogAreg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.verte{
+    background-color: rgb(0, 122, 0);
+    color: rgb(212, 216, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.rouge{
+    background-color: rgb(122, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 750px){
+   #login-form, #register-form {
+    margin:0 auto;
+    width: 80%;
+    }
+
+    .contain_buttonLog{
+        width: auto;
+    }
+
+    .buttonLog{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #button_LogAreg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .verte{
+        background-color: rgb(0, 122, 0);
+        color: rgb(212, 216, 0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .rouge{
+        background-color: rgb(122, 0, 0);
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

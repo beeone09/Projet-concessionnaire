@@ -1,0 +1,31 @@
+.bloc1{
+    display: block;
+    width: auto;
+    margin: 0 auto;   
+}
+
+.divVal{
+    display: flex;
+    border: solid 1px black;
+}
+
+.buttonsub{
+    display: block;
+    position: relative;
+    right: 0;
+    width: auto;
+    text-align: center;
+    border: solid 1px black;
+}
+
+
+.but1{    
+    
+    font-size: 20px;
+    
+}
+
+.envoye{
+    text-align: center;
+    color: green;
+}

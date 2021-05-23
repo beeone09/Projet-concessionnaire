@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.titre1_cnx{
+    text-align: left;
+}
+
+.titre2_cnx{
+    text-align: center;
+}
+
+.container_cnx{
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}        
+
+#form-switch {
+    display:none;
+}
+#form-switch:checked~#register-form {
+    display:block;
+}
+#form-switch:checked~#login-form {
+    display:none;
+}
+
+#login-form, #register-form {
+    margin:0 auto;
+    width:40%;
+}
+
+#register-form {
+    display:none;
+}
+
+@media only screen and (max-width: 750px){
+   
+}
